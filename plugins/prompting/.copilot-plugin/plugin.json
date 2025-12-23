@@ -1,0 +1,21 @@
+{
+  "name": "prompting",
+  "version": "0.1.0",
+  "description": "Comprehensive prompt engineering support for Claude Code. Includes best practices skill covering 8 core principles, autonomous agent that enforces standards, and interactive command builder for creating high-quality custom commands.",
+  "keywords": [
+    "prompting",
+    "prompt-engineering",
+    "best-practices",
+    "agent-skills",
+    "command-builder",
+    "ai-assistance",
+    "quality-assurance"
+  ],
+  "author": {
+    "name": "Javier Alvarez",
+    "email": "jalvarezsamayoa@gmail.com"
+  },
+  "repository": "https://github.com/jalvarezsamayoa/vscode-copilot-plugins",
+  "homepage": "https://github.com/jalvarezsamayoa/vscode-copilot-plugins/tree/main/plugins/prompting",
+  "license": "MIT"
+}

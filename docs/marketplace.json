@@ -1,0 +1,53 @@
+{
+  "name": "vscode-copilot-plugins",
+  "owner": {
+    "name": "Javier Alvarez",
+    "email": "jalvarezsamayoa@gmail.com"
+  },
+  "metadata": {
+    "description": "Community-contributed plugins and extensions for Claude Code. Extends Claude Code with custom commands, agents, hooks, and integrations.",
+    "version": "1.0.0"
+  },
+  "repository": "https://github.com/jalvarezsamayoa/vscode-copilot-plugins",
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./plugins/core",
+      "version": "0.1.0",
+      "description": "Core skills that help AI agents properly operate in repositories. Includes temporary file management with examples for Bash, Python, Node.js, Go, and Ruby.",
+      "keywords": [
+        "agent-skills",
+        "temporary-files",
+        "file-management",
+        "best-practices"
+      ],
+      "category": "utilities",
+      "author": {
+        "name": "Javier Alvarez",
+        "email": "jalvarezsamayoa@gmail.com"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "prompting",
+      "source": "./plugins/prompting",
+      "version": "0.1.0",
+      "description": "Comprehensive prompt engineering support for Claude Code. Includes best practices skill covering 8 core principles, autonomous agent that enforces standards, and interactive command builders.",
+      "keywords": [
+        "prompting",
+        "prompt-engineering",
+        "best-practices",
+        "agent-skills",
+        "command-builder",
+        "quality-assurance"
+      ],
+      "category": "productivity",
+      "author": {
+        "name": "Javier Alvarez",
+        "email": "jalvarezsamayoa@gmail.com"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/jalvarezsamayoa/vscode-copilot-plugins/tree/main/plugins/prompting"
+    }
+  ]
+}

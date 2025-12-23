@@ -1,0 +1,68 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vim/
+.nvim/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# Build and dist directories
+build/
+dist/
+*.egg-info/
+.tox/
+
+# Test coverage
+coverage/
+.coverage
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# OS specific
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local configuration (project-specific)
+.claude/settings.local.json
+
+# Plugin cache and installation directories
+.claude/plugins/
+.claude-plugin/cache/
+
+# Temporary files
+*.tmp
+*.bak
+.tmp/
+
+# IDE settings (local only, not team settings)
+# Team settings should be committed to .claude/settings.json
+.vscode/settings.json
+.idea/workspace.xml
+
+tmp/tmp/
